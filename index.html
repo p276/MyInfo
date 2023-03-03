@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="images/favicon1.png"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!--these 2 are carousel imports -->
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">&lt;My<span>data&gt</span> </a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#projects" class="menu-btn">Projects</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME SELECTION START -->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hello, My name is</div>
+          <div class="text-2">Piyush Aruja</div>
+          <div class="text-3">
+            And I'm a <span class="typing">Web Developer</span>
+          </div>
+          <a href="#contact">Hire me!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="images/profile1.jpg" alt="myProfile" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              I'm Piyush and I'm a <span class="typing2">Web Developer </span>
+            </div>
+            <p>
+              A Prodcuction Enginner turned
+              <span class="keywords">Developer</span>,
+              <span class="keywords">Problem solver </span> and
+              <span class="keywords"> fast learner </span> with Good
+              communication skills. I am motivated to upgrade and expand my
+              skill set through mentorship and challenging projects. I enjoy
+              working collaboratively but can also run with projects
+              independently. I am excited about the prospect of joining a good
+              company.
+            </p>
+            <a
+              href="https://drive.google.com/drive/u/1/my-drive"
+              download="Piyush-Aruja-Resume"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">Skills</h2>
+        <div class="skills-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-laptop-code"></i>
+              <div class="text">Web Developer</div>
+              <p>
+                A Proficient learner of Java , Javascript and Vue and
+                able to create a Web Applications from ground up.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fab fa-html5" id="cs1"></i>
+              <div class="text">HTML 5</div>
+              <p>
+                Mastered HTMl-5 and able to create Dynamic Front End Websites
+                all on my own.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fab fa-css3-alt" id="cs2"></i>
+              <div class="text">CSS 3</div>
+              <p>
+                CSS being a major tool in my arsenal I can create a brilliant,
+                appealing websites with great imagination.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code" id="cs3"></i>
+              <div class="text">Java</div>
+              <p>
+                Understanding the basics of Java is a key component solve many
+                real world Problems.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fab fa-aws" id="cs4"></i>
+              <div class="text">AWS</div>
+              <p>Aware of the basics functioning of IAM, S3 ,EC-2 ,RDS .</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fa fa-database" id="cs5"></i>
+              <div class="text">SQL</div>
+              <p>
+                Able to create a multi-tables complex Databases with SQL on
+                Workbench
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fab fa-js" id="cs6"></i>
+              <div class="text">Javascript</div>
+              <p>
+                It has the largest open-source package repository in the world
+                "npm"!.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-cat" id="cs7"></i>
+              <div class="text">Git</div>
+              <p>
+                Achived a broad presence on GitHub i got, just by Understanding
+                the basics of GIT Functions
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section start -->
+
+    <section class="projects" id="projects">
+      <div class="max-width">
+        <h2 class="title">My Projects</h2>
+        <div class="carousel">
+          <div class="card">
+            <div class="box">
+              <div class="text">OnTrackRx</div>
+              <p>OnTrack is a healthcare project which gives patients reminders for the tablets on time and also able to
+                scheduled appointment with doctors we notify that patient before appointment schedule.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+                <div class="text">Knowledge Sharing Portal</div>
+              <p>We have developed a knowledge-sharing portal that can use, create, share and manage the
+                information. In this portal user can post the question and others can answer that question. Using this
+                user can get appropriate knowledge and can solve their queries easily. Users can search for questions
+                topic wise. Portal provides IDE for online coding practice. Users can upvote the most accurate answers
+                and this can be used as a knowledge base.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+                <div class="text">Mattersmith</div>
+              <p>Mattersmith is a project management and tracking tool. It has many features like Task
+                Management, Time Management, Project Planning, Project Collaboration, Document review etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education section starts-->
+    <section class="education" id="education">
+      <div class="max-width">
+        <h2 class="title">Education</h2>
+        <div class="education-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-graduation-cap fa-2xl"></i>
+              <div class="text">
+                C-DAC
+                <p>
+                  Post graduate Institute of Emerging
+                  Technology, Pune in 2020 Scored
+                  <span class="grade">50%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-graduation-cap fa-2xl"></i>
+              <div class="text">
+                Computer Engineering
+                <p>
+                  graduate from R.C.P.I.T Intitute of technology in 2019 Scored
+                  <span class="grade">7.3CGPA</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-school"></i>
+              <div class="text">
+                Diploma in Information Technology
+                <p>
+                  S.S.V.P.S Polytechnic, Dhule,
+                  <span class="grade">66.12%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-school"></i>
+              <div class="text">
+                Secondary School - 10TH
+                <p>
+                  Navjeevan English Medium School, Dhule
+                  <span class="grade">59%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section start -->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Get in Touch</div>
+            <div class="social-media">
+              <a href="https://www.linkedin.com/in/piyush-aruja-1005a416a">
+                <img src="images/linkedin.png" alt="" class="linkedin" />
+              </a>
+            </div>
+
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Piyush Kumar Aruja</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-map"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">Dhule Maharashtra</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">PiyushAruja97@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column right">
+            <div class="text">Message me</div>
+            <form
+              action="https://formsubmit.co/c00277503eb55fafaa05d10913d3cf08"
+              method="POST"
+            >
+              <div class="field">
+                <div class="field name">
+                  <input type="text" name="Name" placeholder="Name" required />
+                </div>
+                <div class="field email">
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+
+                <div class="field phone">
+                  <input type="text" name="Phone" placeholder="Phone" />
+                </div>
+                <div class="field textarea" name="Message">
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    placeholder="Message"
+                    name="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- //Footer section Start -->
+      <footer>
+        <p>
+          <script
+            src="https://wordsmith.org/words/quote.js"
+            type="text/javascript"
+          ></script>
+        </p>
+        <span
+          >Created By <a href="">Piyush Aruja</a> |
+          <span class="fas fa-copyright">2022 All rights Reserved</span></span
+        >
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
